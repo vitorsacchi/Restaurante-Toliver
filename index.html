@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Exemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+    <header>
+        <div class="container">
+            <img src="img/Yellow Illustrative Kitchen Restaurant Logo.png" alt="Logo do Restaurante" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#menu">Cardápio</a></li>
+                    <li><a href="#reservas">Reservas</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#avaliacoes">Avaliações</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo ao Toliver</h1>
+            <h3>Experimente os melhores pratos em um ambiente aconchegante.</h3>
+            <a href="#reservas" class="btn">Faça uma Reserva</a>
+        </div>
+    </section>
+
+  
+    <section id="reservas">
+        <div class="container">
+            <h2>Faça seu Pedido ou Reserva</h2>
+            <form id="pedido-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="pedido">Seu Pedido:</label>
+                    <textarea id="pedido" name="pedido" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Enviar Pedido</button>
+            </form>
+        </div>
+    </section>
+
+   
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2>Nosso Cardápio</h2>
+            <p>Delícias preparadas com os ingredientes mais frescos.</p>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="img/download (1).jpg" alt="Prato 1">
+                    <h3>Prato Especial</h3>
+                    <p>Descrição deliciosa do prato especial.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="img/vegan.jpg" alt="Prato 2">
+                    <h3>Prato Vegetariano</h3>
+                    <p>Descrição saborosa do prato vegetariano.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="img/asparga.jpg"Prato 3">
+                    <h3>Prato do Dia</h3>
+                    <p>Descrição apetitosa do prato do dia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="galeria" class="gallery-section">
+        <div class="container">
+            <h2>Galeria</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="img/asd.jpg" alt="Prato 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/wdwwd.jpg" alt="Prato 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/Night club bar interior design.jpg" alt="Ambiente do restaurante">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="avaliacoes" class="reviews-section">
+        <div class="container">
+            <h2>Avaliações de Clientes</h2>
+            <div id="reviews">
+                <blockquote>"Comida incrível e atendimento excelente!" - João</blockquote>
+                <blockquote>"Ambiente aconchegante e pratos deliciosos!" - Maria</blockquote>
+                <blockquote>"A melhor experiência gastronômica que já tive!" - Carlos</blockquote>
+            </div>
+        </div>
+    </section>
+
+ 
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Restaurante Toliver. Todos os direitos reservados.</p>
+            <div class="social-media">
+                <a href="#"><img src="imagens/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="imagens/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="imagens/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
